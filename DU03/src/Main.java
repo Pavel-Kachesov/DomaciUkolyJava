@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        Item dort = new Item("dort", 23.50, 3);
-        Item cola = new Item("cola", 3.50, 3);
-        Item kniha = new Item("kniha", 10.30, 2);
+        Item kava = new Item("kava", 53.50, 6);
+        Item kofola = new Item("kofola", 3.50, 3);
+        Item sešit = new Item("sešit", 18.30, 2);
 
         ShoppingCart shoppingCart = new ShoppingCart();
-        shoppingCart.add(dort);
-        shoppingCart.add(cola);
-        shoppingCart.add(kniha);
-        shoppingCart.add(cola);
+        shoppingCart.add(kava);
+        shoppingCart.add(kofola);
+        shoppingCart.add(sešit);
+        shoppingCart.add(kofola);
 
         System.out.println(shoppingCart.getTotalPrice());
         System.out.println(shoppingCart.getItemNames());
