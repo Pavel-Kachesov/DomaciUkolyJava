@@ -1,0 +1,10 @@
+table,stul
+bug,brouk
+peach,broskev
+leg,noha
+word,slovo
+water,voda
+sheep,ovce
+clock,hodiny
+bed,postel
+eye,oko
